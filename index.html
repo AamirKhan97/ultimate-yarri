@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap Css files-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="bootstrap/CSS/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/CSS/mdb.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Ultimate tourism </title>
+</head>
+
+<body>
+
+    <!--Main Header-->
+    <header class="main-header">
+        <!---main navbar-->
+        <nav class="navbar navbar-expand-sm scrolling-navbar navbar-dark fixed-top">
+            <div class="container">
+                <a href="index.html" class="navbar-brand font-bold">
+                    <i class="fa fa-seedling"></i> Ultimate Vacation</a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#ui-navbar">
+                    <span class="navbar-toggler-icon bg-danger"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="ui-navbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item px-2">
+                            <a href="#home" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a href="#about" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a href="destination.html" class="nav-link">Destination</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a href="booknow.html" class="btn btn-danger btn-sm">Book Now</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--landing page-->
+
+        <div class="landing-div" id="home">
+            <div class="landing-wrapper">
+                <div class="d-flex flex-column h-100 align-items-center justify-content-center text-center">
+                   <div class="carousel slide carousel-fade" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <h1 class="display-4 animated slideInLeft delay-1s">Wellcome To Ultiamte <hr>Vacations</h1>
+                        </div>
+                        <div class="carousel-item ">
+                            <h1 class="display-4 animated slideIRight delay-1s" >Enjoy This Vacation <hr>With Us</h1>
+                        </div>
+                        <div class="carousel-item "id="booknow">
+                            <h1 class="display-4 animated slideInDown delay-1s">Feel Relaxed This vacation <hr>With Us</h1>
+                        </div>
+                    </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <!--search section-->
+    <section class="bg-dark text-white p-4" >
+      <div class= "container align-items-center">
+        <div class="row ">
+            <div class="col-md-3">
+                <div class="form-group">
+                    <label class="form-check-label">Check In Date</label>
+                    <input type="date" class="form-control">
+                </div>
+            </div>
+            <div class="col-md-3 ">
+                <div class="form-group">
+                    <label class="form-check-label">Check Out Date</label>
+                    <input type="date" class="form-control">
+                </div>
+            </div>
+            <div class="col-md-2">
+                <label class="form-check-label"> Adults</label>
+                <select class="form-control">
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                </select>
+            </div>
+            <div class="col-md-2">
+                <label class="form-check-label"> Childrens</label>
+                <select class="form-control">
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                </select>
+            </div>
+            <div class="col-md-2 m-auto">
+                <input type="submit" class="btn btn-danger">
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!--activities Section-->
+    <section class="p-4" id="about">
+        <div class="container">
+            <div class="row p-4">
+                <div class="col-md-6">
+                    <div class="row ">
+                        <div class="col-md-6">
+                            <i class="fa fa-gamepad text-secondary fa-4x"></i>
+                            <h4 class="font-weight-bold">Activities</h4>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ut fugiat quod! Ab, quas odio quibusdam dignissimos blanditiis fugiat quia.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <i class="fa fa-bus text-success fa-4x"></i>
+                            <h4 class="font-weight-bold">Private Guide</h4>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ut fugiat quod! Ab, quas odio quibusdam dignissimos blanditiis fugiat quia.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <i class="fa fa-person-booth text-warning fa-4x"></i>
+                            <h4 class="font-weight-bold">Private Guide</h4>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ut fugiat quod! Ab, quas odio quibusdam dignissimos blanditiis fugiat quia.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <i class="fa fa-chalkboard text-primary fa-4x"></i>
+                            <h4 class="font-weight-bold">Location Manager</h4>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ut fugiat quod! Ab, quas odio quibusdam dignissimos blanditiis fugiat quia.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h1 class="font-weight-bold text-danger">It's Time To Start Your adventure</h1>
+                    <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit alias quod tempora error facilis ducimus incidunt, voluptate, at delectus ex, omnis maxime laudantium natus voluptatibus quidem exercitationem aliquam! Ab, veritatis.</p>
+                    <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, incidunt cupiditate, quod harum quis accusamus voluptatum pariatur autem minus laboriosam repellat. Possimus beatae asperiores fuga iure. Ratione nesciunt hic minima nisi suscipit. Ipsa esse iure voluptas ducimus adipisci! Quia, nihil?</p>
+                    <div>
+                        <button class="btn btn-danger"  data-toggle="modal" data-target="#more-modal"> 
+                            <i class="fa fa-book text-white fa-1x"></i> Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--cards Section-->
+    <section class="bg-dark p-5 text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 ">
+                    <div class="card fancy text-center mt-4">
+                        <div class="card-header bg-danger">
+                            <h4 class="font-weight-bold"> Flights & Bookings </h4>
+                           
+                        </div>
+                        <div class="card-body bg-dark">
+                            <i class="fa fa-plane text-danger fa-4x"></i>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, sit?</p>
+                        </div>
+                        <div class="card-footer bg-danger">
+                            <button class="btn btn-dark" data-toggle="modal" data-target="#flight-modal">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card fancy text-center mt-4">
+                        <div class="card-header bg-danger">
+                            <h4 class="font-weight-bold"> Hotels & Lodging </h4>
+                           
+                        </div>
+                        <div class="card-body bg-dark">
+                            <i class="fa fa-hotel text-danger fa-4x"></i>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, sit?</p>
+                        </div>
+                        <div class="card-footer bg-danger">
+                            <button class="btn btn-dark" data-toggle="modal" data-target="#hotel-modal">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card fancy text-center mt-4">
+                        <div class="card-header bg-danger">
+                            <h4 class="font-weight-bold"> Popular Places </h4>
+                           
+                        </div>
+                        <div class="card-body bg-dark">
+                            <i class="fa fa-tree text-danger fa-4x"></i>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, sit?</p>
+                        </div>
+                        <div class="card-footer bg-danger">
+                            <button class="btn btn-dark" data-toggle="modal" data-target="#popular-modal">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card fancy text-center mt-4">
+                        <div class="card-header bg-danger">
+                            <h4 class="font-weight-bold"> Night Life </h4>
+                           
+                        </div>
+                        <div class="card-body bg-dark">
+                            <i class="fa fa-hands text-danger fa-4x"></i>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, sit?</p>
+                        </div>
+                        <div class="card-footer bg-danger">
+                            <button class="btn btn-dark" data-toggle="modal" data-target="#night-modal">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!--Modals Section-->
+
+    <div class="modal" id="more-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-dark">
+                    <h4 class="font-weight-bold text-danger"> It's Time To Start Your adventure</h4>
+                    <button class=" close text-danger" data-dismiss="modal">
+                        <i class="fa fa-times-circle"></i>
+                    </button>
+                </div>
+                <div class="modal-body bg-light">
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde aut molestias iste quam repudiandae dolor reiciendis dolorum incidunt corrupti deleniti eum explicabo earum soluta, dolore delectus. Non unde expedita rem quibusdam commodi corporis sint modi consectetur corrupti illo maiores nulla ex, amet nam aut maxime. Temporibus sequi distinctio, architecto consectetur ab ipsam blanditiis repellendus, sit dolore natus ipsa tempore totam.</p>
+                </div>
+                <div class="modal-footer bg-dark">
+                    <h4 class="font-weight-bold text-danger">
+                        <i class="fa fa-smile">Visit Again</i>
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--flights modal-->
+    <div class="modal" id="flight-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-dark">
+                    <h4 class="font-weight-bold text-danger"> Flights & Bookings</h4>
+                    <button class=" close text-danger" data-dismiss="modal">
+                        <i class="fa fa-times-circle"></i>
+                    </button>
+                </div>
+                <div class="modal-body bg-light">
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde aut molestias iste quam repudiandae dolor reiciendis dolorum incidunt corrupti deleniti eum explicabo earum soluta, dolore delectus. Non unde expedita rem quibusdam commodi corporis sint modi consectetur corrupti illo maiores nulla ex, amet nam aut maxime. Temporibus sequi distinctio, architecto consectetur ab ipsam blanditiis repellendus, sit dolore natus ipsa tempore totam.</p>
+                </div>
+                <div class="modal-footer bg-dark">
+                    <h4 class="font-weight-bold text-danger">
+                        <i class="fa fa-smile">Visit Again</i>
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--hotels modal-->
+    <div class="modal" id="hotel-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-dark">
+                    <h4 class="font-weight-bold text-danger"> Hotels & lodging</h4>
+                    <button class=" close text-danger" data-dismiss="modal">
+                        <i class="fa fa-times-circle"></i>
+                    </button>
+                </div>
+                <div class="modal-body bg-light">
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde aut molestias iste quam repudiandae dolor reiciendis dolorum incidunt corrupti deleniti eum explicabo earum soluta, dolore delectus. Non unde expedita rem quibusdam commodi corporis sint modi consectetur corrupti illo maiores nulla ex, amet nam aut maxime. Temporibus sequi distinctio, architecto consectetur ab ipsam blanditiis repellendus, sit dolore natus ipsa tempore totam.</p>
+                </div>
+                <div class="modal-footer bg-dark">
+                    <h4 class="font-weight-bold text-danger">
+                        <i class="fa fa-smile">Visit Again</i>
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--Popular places modal-->
+    <div class="modal" id="popular-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-dark">
+                    <h4 class="font-weight-bold text-danger"> Popular Places</h4>
+                    <button class=" close text-danger" data-dismiss="modal">
+                        <i class="fa fa-times-circle"></i>
+                    </button>
+                </div>
+                <div class="modal-body bg-light">
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde aut molestias iste quam repudiandae dolor reiciendis dolorum incidunt corrupti deleniti eum explicabo earum soluta, dolore delectus. Non unde expedita rem quibusdam commodi corporis sint modi consectetur corrupti illo maiores nulla ex, amet nam aut maxime. Temporibus sequi distinctio, architecto consectetur ab ipsam blanditiis repellendus, sit dolore natus ipsa tempore totam.</p>
+                </div>
+                <div class="modal-footer bg-dark">
+                    <h4 class="font-weight-bold text-danger">
+                        <i class="fa fa-smile">Visit Again</i>
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--night modal-->
+    <div class="modal" id="night-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-dark">
+                    <h4 class="font-weight-bold text-danger"> Night Life</h4>
+                    <button class=" close text-danger" data-dismiss="modal">
+                        <i class="fa fa-times-circle"></i>
+                    </button>
+                </div>
+                <div class="modal-body bg-light">
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde aut molestias iste quam repudiandae dolor reiciendis dolorum incidunt corrupti deleniti eum explicabo earum soluta, dolore delectus. Non unde expedita rem quibusdam commodi corporis sint modi consectetur corrupti illo maiores nulla ex, amet nam aut maxime. Temporibus sequi distinctio, architecto consectetur ab ipsam blanditiis repellendus, sit dolore natus ipsa tempore totam.</p>
+                </div>
+                <div class="modal-footer bg-dark">
+                    <h4 class="font-weight-bold text-danger">
+                        <i class="fa fa-smile">Visit Again</i>
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Main footer-->
+    <footer class="bg-dark text-white p-4 footer-main ">
+           <div class="footer-wrapper">
+            <div class="container p-5">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h3>Vacations</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab, ut doloremque. Corrupti modi consequuntur natus maiores, iste earum aliquid voluptas quisquam placeat perspiciatis illum pariatur ratione totam deleniti debitis ipsa.</p>
+                    </div>
+                    <hr>
+                    <div class="col-md-3">
+                        <h3>Information</h3>
+                        <p>Adventures</p>
+                        <p>Tours</p>
+                        <p>Hotels</p>
+                        <p>Destination</p>
+                        <p>Enquiries</p>
+                        <p>Online Bookings</p>
+                        <p>Spot Bookings</p>
+                    </div>
+                    <hr>
+                    <div class="col-md-3">
+                        <h3>Experience</h3>
+                        <p>Adventures</p>
+                        <p>Tours</p>
+                        <p>Hotels</p>
+                        <p>Destination</p>
+                        <p>Enquiries</p>
+                        <p>Online Bookings</p>
+                        <p>Spot Bookings</p>
+                    </div>
+                    <hr>
+                    <div class="col-md-3" id="contact">
+                        <h3>Address</h3>
+                        <h4>Flat No 786/1</h4>
+                        <h6>Aurangabad, Maharshtra</h6>
+                         <i class="fab fa-facebook fa-3x text-primary p-2"></i>
+                         <i class="fab fa-instagram fa-3x text-danger p-2"></i>
+                         <i class="fab fa-twitter fa-3x text-primary p-2"></i>
+                    </div>
+                </div>
+            </div>
+           </div>
+    </footer>
+
+
+
+
+    <!--Bootstrap Js files-->
+    <script src="bootstrap/JS/jquery.js"></script>
+    <script src="bootstrap/JS/popper.js"></script>
+    <script src="bootstrap/JS/bootstrap.js"></script>
+    <script src="bootstrap/JS/mdb.js"></script>
+    <script>
+        $('.carousel').carousel({
+            interval : 3000
+        });
+    </script>
+    <script src="app.js"></script>
+</body>
+
+</html>

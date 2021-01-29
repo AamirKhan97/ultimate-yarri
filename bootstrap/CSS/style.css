@@ -1,0 +1,15 @@
+.dropdown-item:hover{
+    background-color: black;
+    color: white !important;
+    box-shadow: 0 0 10px orange;
+}
+.bg-teal , .btn-teal{
+    background-color: teal !important;
+}
+.text-teal{
+    background-color: teal !important;
+}
+.Aamir{
+    background: linear-gradient(45deg,brown,black);
+    border: 1px;
+}

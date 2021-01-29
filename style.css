@@ -1,0 +1,160 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.btn{
+    border-radius: 15px;
+}
+.success{
+    color: lawngreen;
+}
+/*Navbar section*/
+.font-bold{
+    font-weight: bold;
+    font-size: 28px;
+}
+.top-nav-collapse{
+    background-color: black;
+    padding: 0.75rem !important;
+}
+
+
+.nav-link:hover{
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 15px;
+}
+
+/*landing section*/
+.landing-div{
+    background: white url(images/cover\ 1.jpg) no-repeat center;
+    height: 100vh;
+    background-size: cover;
+    color: white;
+}
+.landing-wrapper{
+    background-color: rgba(0,0,0,0.3);
+    height: 100%;
+    
+}
+
+/* Morre styles*/
+.fancy:hover{
+   transform: scale(1.1);
+    transition: all 0.2s;
+    box-shadow: 0 0 5px white;
+}
+
+/* main footer */
+.footer-main{
+    background: url(images/footer.jpg) no-repeat scroll center;
+    height: 100%;
+    background-size: cover;
+   
+}
+.footer-wrapper{
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    background-size: cover;
+}
+
+/* Destination sct */
+.tour-img{
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+}
+
+/* cards Section */
+.card-head{
+    position: relative;
+    border-radius: 10px;
+    box-shadow:  0 0 10px black;
+}
+.card-tittle{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: rgba(0,0,0,0.3);
+    padding: 5px;
+    border-radius: 0 10px 10px 0;
+    color: red;
+}
+.card-info{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color:black;
+    color: white;
+    padding: 10px;
+    width: 25%;
+    border-radius: 0 10px 10px 10px;
+    text-align: right;
+    transition: all 0.5s;
+}
+.main-card:hover .card-info{
+  width: 35%;
+  background-color:red;
+  box-shadow: 0 0 10px black;
+   
+}
+/*destination-main section*/
+.destination-main{
+    position: relative;
+    box-shadow: 0 10px 10px 0 black;
+    cursor: pointer;
+    border-radius: 10px 15px;
+    transition: all 0.5s;
+}
+.destination-img{
+    
+}
+.destination-thumb{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    background-color: rgba(160, 4, 4, 0.5);
+    padding: 5px;
+    border-radius: 0 15px 0 15px;
+
+}
+.destination-name{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    padding: 5px;
+    border-radius: 0 10px 10px 10px;
+}
+.destination-main:hover .destination-thumb{
+    background-color: red;
+    box-shadow: 0 0 15px black;
+}
+/* Form Validation Section */
+.danger{
+    color: red;
+}
+
+.is-form-valid{
+    border: 2px limegreen solid;
+    border-left: 35px limegreen solid;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+.is-form-invalid{
+    border: 2px orangered solid;
+    border-left: 35px orangered solid;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+.text-succcess{
+    color: lime;
+    text-shadow: 0 10px 0 10px black;
+}
+.text-danger{
+    color: orangered;
+    text-shadow: 0 10px 0 10px black;
+}
